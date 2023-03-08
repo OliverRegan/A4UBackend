@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "adYVaEqunBqKDqBTyL+0yr9qLJFN0z31w6a+G7rnQLs=",
+  "Source": "Audit4You.Backend",
+  "BasePath": "_content/Audit4You.Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
