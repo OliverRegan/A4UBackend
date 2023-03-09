@@ -80,13 +80,13 @@ public class MonetaryUnitSampling : IMonetaryUnitSampling
 			}
 
             // Start Date
-            if (DateTime.Compare(DateTime.Parse(request.StartDate), DateTime.Parse(transactionDto.Date)) <= 0)
+            if (request.StartDate == "" || DateTime.Compare(DateTime.Parse(request.StartDate), DateTime.Parse(transactionDto.Date)) <= 0)
             {
 				startDateValid = true;
 			}
 
 			// End Date
-			if (DateTime.Compare(DateTime.Parse(request.EndDate), DateTime.Parse(transactionDto.Date)) >= 0)
+			if (request.EndDate == "" || DateTime.Compare(DateTime.Parse(request.EndDate), DateTime.Parse(transactionDto.Date)) >= 0)
 			{
 				endDateValid = true;
 			}
